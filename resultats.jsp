@@ -15,6 +15,12 @@
 			<p>Prénom : ${param.prenom}</p>
 
 			<% -- Liste des pays déjà visités --%>
+<h3>Pays ou l'utilisatur à déjà fait un voyage :</h3>
+	<p>
+			<c:forEach var="lieu" begin="1" items="${paramValues.pays}" end="15" >
+						<c:out value="${lieu }"/><br/>
+								</c:forEach>
+									</p>
 
 			</body>
 			</html>
