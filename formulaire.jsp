@@ -31,6 +31,9 @@
 																																																</select>
 																																																		</p><textarea id="autresPays" name="autresPays" rows="3" cols="40" tabindex="40">Norvège,Chilli,Nouvelle-Zélande</textarea>
 																																					</p>
-																																						</form>	
+																		<p>
+																					<input type="submit" value="valider"/>
+																								<input type="reset" value="Remise à zéro"/>
+																										</p></form>	
 						</body>
 						</html>
