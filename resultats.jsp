@@ -10,6 +10,9 @@
 <body>
 	<!-- Liste des attributs du formulaire avec les valeurs saisies  -->
 		<%-- Nom et prénom de l'utilisateur  --%>
+	<h3>Utilisateur : </h3>
+		<p>Nom : ${param.nom}</p>
+			<p>Prénom : ${param.prenom}</p>
 
 			<% -- Liste des pays déjà visités --%>
 
