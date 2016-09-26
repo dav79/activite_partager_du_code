@@ -18,7 +18,18 @@
 																											</p>
 																													<p>
 																																<label for="autresPays">Entrer les autres pays que vous aimeriez visités, séparé par une virgule ?  </label><br/>
-																																			<textarea id="autresPays" name="autresPays" rows="3" cols="40" tabindex="40">Norvège,Chilli,Nouvelle-Zélande</textarea>
+									<select id="pays" name="pays" multiple="multiple" tabindex="30" >
+													<option value="France">France</option>
+																	<option value="Belgique">Belgique</option>
+																					<option value="Italie">Italie</option>
+																									<option value="Royaume-uni">Royaume-uni</option>
+																													<option value="Etats-unis">Etats-Unis</option>
+																																	<option value="Jabon">Japon</option>
+																																					<option value="Chine">Chine</option>
+																																									<option value="Canada">Canada</option>
+																																													<option value="Espagne">Espagne</option>	
+																																																</select>
+																																																		</p><textarea id="autresPays" name="autresPays" rows="3" cols="40" tabindex="40">Norvège,Chilli,Nouvelle-Zélande</textarea>
 																																					</p>
 																																						</form>	
 						</body>
